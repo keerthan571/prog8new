@@ -14,5 +14,20 @@
       <version>3.8.1</version>
       <scope>test</scope>
     </dependency>
+<build>
+<plugins>
+<plugin>
+<artifactId>maven-jar-plugin</artifactId>
+<version>3.0.1</version>
+<configuration>
+	<archive>
+	<manifest>
+	<mainClass>com.mvit.App</mainClass>
+	</manifest>
+	</archive>
+</configuration>
+</plugin>
+</plugins>
+</build>
   </dependencies>
 </project>
